@@ -1,0 +1,363 @@
+/* CSS ejemplo web - RECURINFOR (v5) - {Abrirllave.com - by @CarlosPes */
+/* reset */
+a,article,aside,body,caption,code,div,figcaption,figure,footer,
+h1,h2,h3,h4,h5,header,html,img,li,main,nav,p,pre,table,td,th,thead,tr,ul {
+border:0;
+margin:0;
+padding:0;
+}
+article,aside,code,figcaption,figure,footer,header,hgroup,nav,section {
+display: block;
+}
+/* body */
+html{
+	background-image: url("https://wallpapercave.com/wp/wp10130760.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+    overflow-y: scroll;
+    scrollbar-color: #130742 #2e2e2e;
+    scrollbar-width: thin;
+}
+body {
+color: white;
+font:100% Verdana, Arial, sans-serif;
+margin:0 auto;
+padding-bottom:1em;
+width:960px;
+margin-top: 3vh;
+margin-bottom: 3vh;
+}
+body > nav {
+float:left;
+height:auto;
+width:180px;
+}
+body > main {
+float:left;
+height:auto;
+width:620px;
+}
+body > aside {
+float:left;
+height:auto;
+padding-top:1em;
+text-align:right;
+width:160px;
+}
+/* header */
+body > header {
+}
+body > header > a > img {
+float:left;
+padding-left:.4em;
+padding-top:.1em;
+}
+body > header > a:link, a:visited, a:hover, a:active {
+text-decoration:none;
+}
+body > header > a > h4 {
+float:left;
+color:white;
+font-family:calibri,arial,helvetica;
+font-size:2em;
+line-height:1.8em;
+padding-top: .1em;
+}
+body > header > nav {
+clear:both;
+width:100%;
+}
+body > header > nav > h4 {
+color:white;
+font-family:courier,"lucida console",verdana;
+font-size:1em;
+line-height:1.4em;
+padding-left:.75em;
+}
+body > header > nav > ul {
+padding-left:.35em;
+}
+body > header > nav > ul > li {
+display:inline;
+line-height:1.6em;
+list-style-type:none;
+color: white;
+}
+body > header > nav a:link, body > header > nav a:visited {
+color:white;
+font-size:.8em;
+padding-left:.5em;
+text-decoration:none;
+}
+body > header > nav a:hover, body > header > nav a:active {
+color:white;
+font-size:.8em;
+padding-left:.5em;
+text-decoration:underline;
+}
+/* nav */
+body > nav {
+clear:both;
+margin-bottom:.5em;
+}
+body > nav > h3 {
+font-size:1.05em;
+color:white;
+text-align:left;
+padding-left:.6em;
+padding-right:.9em;
+padding-top:.5em;
+}
+body > nav > ul > li {
+margin-left:1.9em;
+padding-top:.3em;
+}
+body > nav a:link, body > nav a:visited {
+color:white;
+font-size:0.95em;
+text-decoration:none;
+}
+body > nav a:hover, body > nav a:active {
+color:white;
+font-size:0.95em;
+text-decoration:underline;
+}
+/* main */
+main > ul {
+border-bottom:.1em solid #ccc;
+color:white;
+font-size:.95em;
+margin-left:.8em;
+margin-right:1em;
+padding-bottom:.7em;
+padding-top:.6em;
+}
+main > ul > li {
+display:inline;
+list-style-type:none;
+}
+main > ul a:link, main > ul a:visited {
+color:white;
+font-size:.95em;
+text-decoration:none;
+}
+main > ul a:hover, main > ul a:active {
+color:white;
+font-size:.95em;
+text-decoration:underline;
+}
+main article h1 {
+color:white;
+font-size:1.6em;
+padding-bottom:.3em;
+padding-left:.4em;
+margin-right:.8em;
+padding-top:.3em;
+}
+main article h2 {
+color:white;
+font-size:1.4em;
+font-weight:normal;
+margin-bottom:.6em;
+margin-left:.5em;
+margin-right:.8em;
+margin-top:1em;
+text-decoration: underline;
+}
+main article > p {
+color:white;
+font-size:.95em;
+line-height:1.5em;
+margin-bottom:1em;
+margin-left:.8em;
+margin-right:.8em;
+}
+main article a:link, main article a:visited {
+color:white;
+font-size:.95em;
+text-decoration:none;
+}
+main article div{
+	margin-left: 20px;
+}
+main article a:hover, main article a:active {
+color:white;
+font-size:.95em;
+text-decoration:underline;
+}
+main article img {
+margin-left:.8em;
+margin-bottom:1em;
+}
+main > article > ul {
+font-size:.95em;
+margin-left:1.3em;
+margin-right:1em;
+padding-left:.5em;
+margin-bottom: 1em;
+}
+body > main > article > ul > li {
+margin-left:.6em;
+margin-bottom:.6em;
+}
+body > main > article > ul > li > p {
+line-height:1.5em;
+}
+main > article + ul {
+border-bottom:0em;
+border-top:.1em solid #ccc;
+text-align:center;
+}
+/* aside */
+aside{
+	margin-left: -10px;
+}
+h5 {
+color:white;
+font-size:.5em;
+text-align:center;
+font-weight:normal;
+text-transform: uppercase;
+}
+/* footer */
+body > footer {
+clear:both;
+padding-top: 1em;
+}
+body > footer > ul {
+padding-bottom:.3em;
+padding-top:.2em;
+text-align:center;
+}
+body > footer > ul + ul {
+padding-top:.7em;
+}
+body > footer > ul > li {
+display:inline;
+list-style-type:none;
+}
+body footer a:link, body footer a:visited {
+color:white;
+font-size:.8em;
+padding-right:.6em;
+text-decoration:none;
+}
+body footer a:hover, body footer a:active {
+color:white;
+font-size:.8em;
+padding-right:.6em;
+text-decoration:underline;
+}
+body > footer > p {
+color:white;
+font-size:.75em;
+line-height:1.5em;
+margin-top:.1em;
+text-align:center;
+}
+/* Móvil -481 */
+/* Tabletas +480-671 */
+@media only screen and (max-width:670px){
+body {
+width:100%;
+}
+body > header > nav {
+clear:both;
+width:100%;
+}
+body > nav {
+clear:both;
+display:none;
+width:100%;
+}
+body > main {
+clear:both;
+width:100%;
+}
+body > aside {
+clear:both;
+display:none;
+text-align:center;
+width:100%;
+}
+main article img{
+height:auto;
+margin-left:.8em;
+margin-bottom:.6em;
+max-width:92%;
+}
+}
+/* Tabletas +670-769 */
+/* Pantalla +768-830 */
+@media only screen and (min-width:671px) and (max-width:830px){
+body {
+width:100%;
+}
+body > header > nav {
+width:100%;
+}
+body > nav {
+width:20%;
+width:-moz-calc(180px);
+width:-webkit-calc(180px);
+width:calc(180px);
+}
+body > main {
+width:80%;
+width:-moz-calc(100% - 180px);
+width:-webkit-calc(100% - 180px);
+width:calc(100% - 180px);
+}
+body > aside {
+clear:both;
+display:none;
+padding-left:180px;
+text-align:center;
+width:554px;
+width:-moz-calc(100% - 180px);
+width:-webkit-calc(100% - 180px);
+width:calc(100% - 180px);
+}
+}
+/* Pantalla +830-977 */
+@media only screen and (min-width:831px) and (max-width:976px){
+body {
+width:100%;
+}
+body > header > nav {
+width:100%;
+}
+body > nav {
+width:20%;
+width:-moz-calc(180px);
+width:-webkit-calc(180px);
+width:calc(180px);
+}
+body > main {
+width:61%;
+width:-moz-calc(100% - 340px);
+width:-webkit-calc(100% - 340px);
+width:calc(100% - 340px);
+}
+body > aside {
+text-align:right;
+width:19%;
+width:-moz-calc(160px);
+width:-webkit-calc(160px);
+width:calc(160px);
+}
+}
+/* Pantalla +977 */
+@media only screen and (min-width:977px){
+body{
+width:960px;
+}
+}
+.container{
+	border: 2px solid #baceff;
+	border-radius: 20px;
+	box-shadow: 0 0 20px #baceff;
+	backdrop-filter: blur(10px);
+}

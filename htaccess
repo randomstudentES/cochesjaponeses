@@ -1,0 +1,13 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^NissanDrift.com [NC]
+RewriteRule ^(.*)$ http://localhost/www-cochesjaponeses-me/index.php$1 [L,R=301]
+
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://www.youtube.com/watch?v=QX43QTYyV-8$1 [R,L]
+
+ErrorDocument 400 https://www.cochesjaponeses.me
+ErrorDocument 401 https://www.cochesjaponeses.me
+ErrorDocument 403 https://www.cochesjaponeses.me
+ErrorDocument 404 https://www.cochesjaponeses.me
+ErrorDocument 500 https://www.cochesjaponeses.me

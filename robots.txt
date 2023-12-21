@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /codes/
+Sitemap: https://www.abrirllave.com/sitemap.xml
