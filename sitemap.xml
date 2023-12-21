@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9 https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url><loc>https://www.cochesjaponeses.me/</loc></url>
-<url><loc>https://www.cochesjaponeses.me/5-mejores-coches.php</loc></url>
-<url><loc>https://www.cochesjaponeses.me/acerca-de.php</loc></url>
-<url><loc>https://www.cochesjaponeses.me/</loc></url>
-
+<url><loc>https://www.cochesjaponeses.me/5-mejores-coches/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/acerca-de/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/coches-baratos/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/contacto/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/drifting/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/images/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/css/</loc></url>
+<url><loc>https://www.cochesjaponeses.me/sonido</loc></url>
 </urlset>
